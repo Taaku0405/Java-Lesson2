@@ -8,5 +8,8 @@ class Main {
     boolean bool = 3 * 9 == 27;
     System.out.println(bool);
 
+    // 比較演算子の学習
+    System.out.println(4 + 2 < 6);
+    System.out.println(4 + 2 <= 6);
   }
 }
