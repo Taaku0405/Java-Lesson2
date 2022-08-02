@@ -40,5 +40,25 @@ class Main {
       System.out.println("xは8より大きい");
     }
 
+    // 条件分岐 else, eise if の学習
+    int number = 12;
+    if (number < 10) {
+      System.out.println("10より小さい");
+    } else if (number < 20) {
+      System.out.println("10以上、20より小さい");
+    } else {
+      System.out.println("20以上");
+    }
+
+    // swich文の学習①
+    int n = 1;
+    switch (n) {
+      case 1:
+        System.out.println("大吉です");
+        break;
+      case 2:
+        System.out.println("吉です");
+        break;
+    }
   }
 }
