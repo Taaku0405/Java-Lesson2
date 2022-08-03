@@ -14,8 +14,13 @@ public class Lesson3 {
     System.out.println(languages[1]);
 
     // 配列と繰り返しの学習 => for文を使って繰り返し
-    for (int i = 0; i <names.length; i ++) {
+    for (int i = 0; i < names.length; i++) {
       System.out.println(names[i]);
+    }
+
+    // 配列用のfor文の学習
+    for (String name : names) {
+      System.out.println("私の名前は" + name + "です");
     }
   }
 }
