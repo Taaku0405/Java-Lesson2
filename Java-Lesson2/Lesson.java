@@ -20,5 +20,10 @@ public class Lesson {
       System.out.println(number);
       number--;
     }
+
+    // for文の学習 => 繰り返し処理
+    for (int i = 1; i <= 5; i++) {
+      System.out.println(i + "回目のループです");
+    }
   }
 }
