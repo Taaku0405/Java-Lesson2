@@ -13,5 +13,12 @@ public class Lesson {
         System.out.println("凶です");
         break;
     }
+
+    // while文の学習 => 繰り返し処理
+    int number = 5;
+    while (number > 0) {
+      System.out.println(number);
+      number--;
+    }
   }
 }
